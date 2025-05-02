@@ -59,4 +59,4 @@ spec:
       targetPort: 3000
   selector:
     app: chatbot-ui
-  type: ClusterIP
+  type: LoadBalancer
