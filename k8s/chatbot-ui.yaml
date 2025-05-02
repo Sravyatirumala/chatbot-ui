@@ -33,7 +33,7 @@ spec:
     spec:
       containers:
         - name: chatbot-ui
-          image: savyatirumala/chatbot-ui:latest
+          image: sravyatirumala/chatbot:latest
           resources: {}
           ports:
             - containerPort: 3000
